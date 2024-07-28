@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', serif;   
+}
+
+body{
+    background-color: #1470Af;
+}
+
+/* header */
+
+.head{
+    height: 100px;
+    width: 100%;
+    border: none;
+    display: flex;
+}
+
+#PF{  
+    height: 80px;
+    width: 25%;
+    font-size: 60px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 60px;
+    color: white;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.section{
+    height: 80px;
+    width: 65%;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    border:none;
+    margin-top: 40px;
+    margin-left: 120px;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+a{
+    color: white;
+}
+
+
+.intro{
+    height: 300px;
+    width: 91.6%;
+    border: 1.5px solid white;
+    border-radius: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    color: white;
+    box-shadow: 5px 5px 5px white;
+}
+
+p{
+    margin-top: 55px;
+    margin-left: 75px;
+    line-height: 50px;
+    font-size: 50px;
+}
+
+#intro{
+    font-size: 35px;
+    border:none;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+#FED{
+    font-size: 60px;
+    margin-top: 5px;
+    margin-left: 300px;   
+}
+
+.img{
+    height: 296px;
+    width: 300px;
+    border: none;
+    background-image: url('/d1321427-1c06-425e-a25c-f3ad6667172d.jpg');
+    background-size: cover;
+    margin-top: -278px;
+    margin-left: 1044px;
+    margin-bottom: 1.8px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+}
+
+/* main */
+
+.About{
+    height: 400px;
+    width: 80%;
+    border: 1.5px solid white;
+    border-radius: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    color: white;
+    box-shadow: 5px 5px 5px white;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+#About{
+    height: 237px;
+    width: 700px;
+    font-size: 25px;
+    border: none;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+#About_img{
+    height: 380px;
+    width: 340px;
+    background-image: url('/iiii.jpeg');
+    background-size: cover;
+    border: 1px solid white;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border-top-left-radius: 120px;
+    margin-top: -375px;
+    margin-left: 827px;
+}
+
+.Qualification{
+    height: 400px;
+    width: 80%;
+    border: 1.5px solid white;
+    border-radius: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 230px;
+    color: white;
+    box-shadow: 5px 5px 5px white;
+}
+#Quali{
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.Skills{
+    height: 400px;
+    width: 80%;
+    border: 1.5px solid white;
+    border-radius: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    color: white;
+    box-shadow: 5px 5px 5px white;
+}
+
+#skills{
+    height: 220px;
+    width: 75%;
+    border: none;
+    margin-top: 35px;
+    margin-left: 120px;
+}
+pre{
+    font-size: 22px;
+    display: flex;
+    
+}
+
+strong{
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.Projects{
+    height: 400px;
+    width: 80%;
+    border: 1.5px solid white;
+    border-radius: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 230px;
+    color: white; 
+    box-shadow: 5px 5px 5px white;   
+}
+
+.Resume{
+    height: 400px;
+    width: 80%;
+    border: 1.5px solid white;
+    border-radius: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    color: white;  
+    box-shadow: 5px 5px 5px white; 
+}
+
+#Resume{
+    height: 200px;
+    width: 90%;
+    border: none;
+    line-height: 90px;
+    margin-left: 90px;
+}
+
+#tag{
+    font-size: 45px;
+}
+
+#button{    
+    border: .5px solid black;
+    border-radius: 7px;
+    background-color: #f4f4f4;
+    font-size: 35px;
+    margin-left: 23.5rem;
+    color: #1470Af;
+}
+
+.Contact{
+    height: 400px;
+    width: 80%;
+    border: 1.5px solid white;
+    border-radius: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 230px;
+    color: white; 
+    box-shadow: 5px 5px 5px white;   
+}
+
+#Cont{
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+/* footer */
+
+#cr-sec2{
+    height: 26px;
+    width: 100%;
+    background-color: rgb(54, 49, 49);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
